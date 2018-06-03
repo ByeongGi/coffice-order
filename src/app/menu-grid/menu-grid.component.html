@@ -1,0 +1,8 @@
+<mat-grid-list cols="2" rowHeight="1:1">
+  <mat-grid-tile *ngFor="let row of gridList"> 
+    <div  class="img-wrap">
+      <img  (click)="menuClick($event)" src="{{row.path}}" alt="{{row.meunName}}" [attr.data-itemcode]="row.itemCode">
+      <p>{{row.meunName}}</p>
+    </div>
+  </mat-grid-tile>
+</mat-grid-list>
