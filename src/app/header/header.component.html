@@ -1,0 +1,10 @@
+<mat-form-field>
+    <mat-select [(value)]="selected" (selectionChange)="selectedChangeValue($event)">
+      <mat-option value="B">백다방</mat-option>
+      <mat-option value="S">스타벅스</mat-option>
+      <mat-option value="I">이디야</mat-option>
+    </mat-select> 
+</mat-form-field>
+   
+  <p>You selected: {{selected}}</p>
+ 

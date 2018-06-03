@@ -1,0 +1,32 @@
+.img-wrap  {
+    height:98%;
+    width: 98%;
+    
+    // padding: 1px;
+    border: 1px solid #dcdcdc;
+    // border-left: 1px solid #dcdcdc;
+    // border-right: 1px solid #dcdcdc;
+    img {
+        position:absolute;
+        max-width:96%;
+        max-height:96%;
+        width:auto;
+        height:auto;
+        margin:auto;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+
+    }
+    
+    p {
+        position: relative;
+        text-align: center;
+        font-size: 1.3rem;
+        color: #000;
+    }
+}
+
+
+
