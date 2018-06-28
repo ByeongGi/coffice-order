@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="2" tests="6" time="4.237">
+ <testsuite name="단위테스트" timestamp="2018-06-29T08:27:37" hostname="localhost" time="2.317" errors="0" tests="3" skipped="0" disabled="0" failures="1">
+  <testcase classname="단위테스트" name="테스트 내용 " time="1.117" />
+  <testcase classname="단위테스트" name="테스트 내용2 " time="0.698" />
+  <testcase classname="단위테스트" name="테스트 내용3 " time="0.498">
+   <failure type="toEqual" message="Expected &apos;백다방 메뉴표&apos; to equal &apos;백다방 메뉴표!&apos;."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (/home/kira/portfolio/coffice-order/e2e/src/app.e2e-spec.ts:22:37)
+    at /home/kira/portfolio/coffice-order/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/home/kira/portfolio/coffice-order/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+    at ControlFlow.promise (/home/kira/portfolio/coffice-order/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+    at schedulerExecute (/home/kira/portfolio/coffice-order/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/home/kira/portfolio/coffice-order/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+    at TaskQueue.executeNext_ (/home/kira/portfolio/coffice-order/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+    at asyncRun (/home/kira/portfolio/coffice-order/node_modules/selenium-webdriver/lib/promise.js:2974:25)
+    at /home/kira/portfolio/coffice-order/node_modules/selenium-webdriver/lib/promise.js:668:7]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="단위테스트2" timestamp="2018-06-29T08:27:40" hostname="localhost" time="1.92" errors="0" tests="3" skipped="0" disabled="0" failures="1">
+  <testcase classname="단위테스트2" name="테스트 내용 " time="0.835" />
+  <testcase classname="단위테스트2" name="테스트 내용2 " time="0.622" />
+  <testcase classname="단위테스트2" name="테스트 내용3 " time="0.462">
+   <failure type="toEqual" message="Expected &apos;백다방 메뉴표&apos; to equal &apos;백다방 메뉴표!&apos;."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (/home/kira/portfolio/coffice-order/e2e/src/app2.e2e-spec.ts:22:37)
+    at /home/kira/portfolio/coffice-order/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/home/kira/portfolio/coffice-order/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+    at ControlFlow.promise (/home/kira/portfolio/coffice-order/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+    at schedulerExecute (/home/kira/portfolio/coffice-order/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/home/kira/portfolio/coffice-order/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+    at TaskQueue.executeNext_ (/home/kira/portfolio/coffice-order/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+    at asyncRun (/home/kira/portfolio/coffice-order/node_modules/selenium-webdriver/lib/promise.js:2974:25)
+    at /home/kira/portfolio/coffice-order/node_modules/selenium-webdriver/lib/promise.js:668:7]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>

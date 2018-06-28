@@ -1,0 +1,67 @@
+//--------------------------------
+//     Begin of tests Run         
+//--------------------------------
+//Started Executing test cases @ 2018-6-29 00:11:39
+//Total specs defined = 3
+{
+  "단위테스트": [
+    {
+      "id": "spec0",
+      "description": "테스트 내용 ",
+      "fullName": "단위테스트 테스트 내용 ",
+      "failedExpectations": [],
+      "passedExpectations": [
+        {
+          "matcherName": "toEqual",
+          "message": "Passed.",
+          "stack": "",
+          "passed": true
+        }
+      ],
+      "pendingReason": "",
+      "status": "passed",
+      "duration": "1 sec"
+    },
+    {
+      "id": "spec1",
+      "description": "테스트 내용2 ",
+      "fullName": "단위테스트 테스트 내용2 ",
+      "failedExpectations": [],
+      "passedExpectations": [
+        {
+          "matcherName": "toEqual",
+          "message": "Passed.",
+          "stack": "",
+          "passed": true
+        }
+      ],
+      "pendingReason": "",
+      "status": "passed",
+      "duration": "0.751 sec"
+    },
+    {
+      "id": "spec2",
+      "description": "테스트 내용3 ",
+      "fullName": "단위테스트 테스트 내용3 ",
+      "failedExpectations": [
+        {
+          "matcherName": "toEqual",
+          "message": "Expected '백다방 메뉴표' to equal '백다방 메뉴표!'.",
+          "stack": "Error: Failed expectation\n    at UserContext.<anonymous> (/home/kira/portfolio/coffice-order/e2e/src/app.e2e-spec.ts:22:37)\n    at /home/kira/portfolio/coffice-order/node_modules/jasminewd2/index.js:112:25\n    at new ManagedPromise (/home/kira/portfolio/coffice-order/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n    at ControlFlow.promise (/home/kira/portfolio/coffice-order/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n    at schedulerExecute (/home/kira/portfolio/coffice-order/node_modules/jasminewd2/index.js:95:18)\n    at TaskQueue.execute_ (/home/kira/portfolio/coffice-order/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/home/kira/portfolio/coffice-order/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/home/kira/portfolio/coffice-order/node_modules/selenium-webdriver/lib/promise.js:2974:25)\n    at /home/kira/portfolio/coffice-order/node_modules/selenium-webdriver/lib/promise.js:668:7",
+          "passed": false,
+          "expected": "백다방 메뉴표!",
+          "actual": "백다방 메뉴표"
+        }
+      ],
+      "passedExpectations": [],
+      "pendingReason": "",
+      "status": "failed",
+      "duration": "0.455 sec"
+    }
+  ]
+}
+//--------------------------------
+//     End of tests Run           
+//--------------------------------
+//Finshed Executing test cases @ 2018-6-29 00:11:41
+//Tota time taken = 2.437
